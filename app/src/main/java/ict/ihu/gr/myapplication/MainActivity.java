@@ -59,11 +59,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             textView.setText("Answer = " + ((float) num1 / (float) num2));
         } else if (view.getId() == R.id.btn_clear) {
             textView.setText(" ");
-            editTextN1.setText("Enter number");
-            ;
-            editTextN2.setText("Enter Number");
-            ;
-
         }
 
     }
